@@ -1,3 +1,7 @@
+# Next.js build files
+.next/
+out/
+
 # Logs
 logs
 *.log
