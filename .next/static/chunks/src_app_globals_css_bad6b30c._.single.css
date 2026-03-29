@@ -499,6 +499,10 @@ html {
   bottom: 2.5rem;
 }
 
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
 .left-0 {
   left: 0;
 }
@@ -507,12 +511,12 @@ html {
   left: 50%;
 }
 
-.left-10 {
-  left: 2.5rem;
-}
-
 .left-4 {
   left: 1rem;
+}
+
+.left-6 {
+  left: 1.5rem;
 }
 
 .right-0 {
@@ -553,6 +557,10 @@ html {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .z-50 {
@@ -647,8 +655,8 @@ html {
   aspect-ratio: 4 / 3;
 }
 
-.aspect-\[4\/5\] {
-  aspect-ratio: 4 / 5;
+.aspect-square {
+  aspect-ratio: 1;
 }
 
 .h-0\.5 {
@@ -673,10 +681,6 @@ html {
 
 .h-24 {
   height: 6rem;
-}
-
-.h-32 {
-  height: 8rem;
 }
 
 .h-60 {
@@ -737,10 +741,6 @@ html {
 
 .w-24 {
   width: 6rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .w-6 {
@@ -1012,10 +1012,6 @@ html {
   border-radius: 3.5rem;
 }
 
-.rounded-\[3rem\] {
-  border-radius: 3rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1253,11 +1249,6 @@ html {
 
 .to-white\/20 {
   --tw-gradient-to: rgba(255, 255, 255, .2) var(--tw-gradient-to-position);
-}
-
-.object-contain {
-  -o-object-fit: contain;
-  object-fit: contain;
 }
 
 .object-cover {
@@ -2054,10 +2045,6 @@ html {
     aspect-ratio: auto;
   }
 
-  .md\:h-40 {
-    height: 10rem;
-  }
-
   .md\:h-auto {
     height: auto;
   }
@@ -2068,10 +2055,6 @@ html {
 
   .md\:w-1\/4 {
     width: 25%;
-  }
-
-  .md\:w-40 {
-    width: 10rem;
   }
 
   .md\:w-80 {

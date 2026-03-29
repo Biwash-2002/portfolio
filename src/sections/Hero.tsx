@@ -91,22 +91,23 @@ export function HeroSection() {
             transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             className="relative flex justify-center lg:justify-end order-1 lg:order-2"
           >
-            <div className="relative w-full max-w-lg aspect-[4/5] overflow-hidden rounded-[3rem] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] group">
-              <Image
-                src="/biwash.jpg.jpg"
-                alt={personalInfo.name}
-                fill
-                className="object-cover transition-transform duration-1000 scale-105 group-hover:scale-110"
-                priority
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
+            <div className="relative w-full max-w-lg group">
+              <div className="relative aspect-square overflow-hidden rounded-full shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)]">
+                <Image
+                  src="/biwash.jpg.jpg"
+                  alt={personalInfo.name}
+                  fill
+                  className="object-cover transition-transform duration-1000 scale-105 group-hover:scale-110"
+                  priority
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
+              </div>
 
-              {/* Experience Badge */}
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute bottom-10 left-10 p-6 glassmorphism rounded-3xl border border-white/10 shadow-2xl backdrop-blur-2xl"
+                className="absolute bottom-6 left-6 p-6 glassmorphism rounded-3xl border border-white/10 shadow-2xl backdrop-blur-2xl z-20"
               >
                 <div className="flex items-center gap-5">
                   <div className="bg-primary/20 p-4 rounded-2xl border border-primary/20">

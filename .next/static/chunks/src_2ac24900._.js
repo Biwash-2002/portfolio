@@ -293,25 +293,34 @@ function HeroSection() {
                             className: "relative flex justify-center lg:justify-end order-1 lg:order-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative w-full max-w-lg aspect-[4/5] overflow-hidden rounded-[3rem] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] group",
+                                    className: "relative w-full max-w-lg group",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/biwash.jpg.jpg",
-                                            alt: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$portfolio$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["personalInfo"].name,
-                                            fill: true,
-                                            className: "object-cover transition-transform duration-1000 scale-105 group-hover:scale-110",
-                                            priority: true,
-                                            sizes: "(max-width: 768px) 100vw, 50vw"
-                                        }, void 0, false, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative aspect-square overflow-hidden rounded-full shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)]",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: "/biwash.jpg.jpg",
+                                                    alt: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$portfolio$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["personalInfo"].name,
+                                                    fill: true,
+                                                    className: "object-cover transition-transform duration-1000 scale-105 group-hover:scale-110",
+                                                    priority: true,
+                                                    sizes: "(max-width: 768px) 100vw, 50vw"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/sections/Hero.tsx",
+                                                    lineNumber: 96,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/sections/Hero.tsx",
+                                                    lineNumber: 104,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/sections/Hero.tsx",
                                             lineNumber: 95,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/sections/Hero.tsx",
-                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -327,7 +336,7 @@ function HeroSection() {
                                                 repeat: Infinity,
                                                 ease: "easeInOut"
                                             },
-                                            className: "absolute bottom-10 left-10 p-6 glassmorphism rounded-3xl border border-white/10 shadow-2xl backdrop-blur-2xl",
+                                            className: "absolute bottom-6 left-6 p-6 glassmorphism rounded-3xl border border-white/10 shadow-2xl backdrop-blur-2xl z-20",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex items-center gap-5",
                                                 children: [
@@ -338,12 +347,12 @@ function HeroSection() {
                                                             children: "3+"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/sections/Hero.tsx",
-                                                            lineNumber: 113,
+                                                            lineNumber: 114,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/sections/Hero.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 113,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -353,7 +362,7 @@ function HeroSection() {
                                                                 children: "Months Professional"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/sections/Hero.tsx",
-                                                                lineNumber: 116,
+                                                                lineNumber: 117,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -361,24 +370,24 @@ function HeroSection() {
                                                                 children: "Building the future"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/sections/Hero.tsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 118,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/sections/Hero.tsx",
-                                                        lineNumber: 115,
+                                                        lineNumber: 116,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/sections/Hero.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 112,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/sections/Hero.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -391,14 +400,14 @@ function HeroSection() {
                                     className: "absolute -z-10 -top-20 -right-20 w-80 h-80 bg-primary/5 rounded-full blur-3xl animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/src/sections/Hero.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 126,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute -z-10 -bottom-20 -left-20 w-60 h-60 bg-purple-500/5 rounded-full blur-2xl"
                                 }, void 0, false, {
                                     fileName: "[project]/src/sections/Hero.tsx",
-                                    lineNumber: 126,
+                                    lineNumber: 127,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -436,7 +445,7 @@ function HeroSection() {
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/src/sections/Hero.tsx",
-                        lineNumber: 138,
+                        lineNumber: 139,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -457,18 +466,18 @@ function HeroSection() {
                             className: "w-full h-1/3 bg-white"
                         }, void 0, false, {
                             fileName: "[project]/src/sections/Hero.tsx",
-                            lineNumber: 142,
+                            lineNumber: 143,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/sections/Hero.tsx",
-                        lineNumber: 141,
+                        lineNumber: 142,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/sections/Hero.tsx",
-                lineNumber: 132,
+                lineNumber: 133,
                 columnNumber: 7
             }, this)
         ]
