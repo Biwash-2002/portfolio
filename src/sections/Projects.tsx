@@ -12,7 +12,9 @@ import type { Project } from "@/data/portfolio";
 const filters = [
   { name: "All", icon: LayoutGrid },
   { name: "React", icon: AppWindow },
-  { name: "UI/UX", icon: Paintbrush },
+  { name: "Frontend", icon: Paintbrush },
+  { name: "Fullstack", icon: AppWindow },
+  { name: "UI/UX", icon: AppWindow },
 ];
 
 export function ProjectsSection() {
@@ -39,11 +41,10 @@ export function ProjectsSection() {
             <button
               key={filter.name}
               onClick={() => setActiveFilter(filter.name)}
-              className={`group flex items-center gap-3 px-8 py-4 rounded-full border border-border transition-all duration-500 relative overflow-hidden ${
-                activeFilter === filter.name
-                  ? "bg-foreground text-background"
-                  : "hover:border-primary/40"
-              }`}
+              className={`group flex items-center gap-3 px-8 py-4 rounded-full border border-border transition-all duration-500 relative overflow-hidden ${activeFilter === filter.name
+                ? "bg-foreground text-background"
+                : "hover:border-primary/40"
+                }`}
             >
               <filter.icon
                 size={18}

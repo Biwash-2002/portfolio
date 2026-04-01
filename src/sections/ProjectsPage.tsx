@@ -13,8 +13,9 @@ import type { Project } from "@/data/portfolio";
 const filters = [
   { name: "All", icon: LayoutGrid },
   { name: "React", icon: AppWindow },
-  { name: "UI/UX", icon: Paintbrush },
+  { name: "Frontend", icon: Paintbrush },
   { name: "Fullstack", icon: Globe2 },
+  { name: "UI/UX", icon: AppWindow },
 ];
 
 function ProjectDetailCard({

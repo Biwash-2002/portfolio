@@ -87,7 +87,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onLoadingComplete }) => {
                   transition={{ duration: 2, repeat: Infinity }}
                   className="text-[10px] text-white/40 uppercase tracking-[0.4em] mt-2"
                 >
-                  Initializing Portfolio
+                  Biwash Thapa
                 </motion.span>
               </div>
             </div>

@@ -52,7 +52,7 @@ export interface Project {
   description: string;
   image: string;
   tags: string[];
-  category: "React" | "UI/UX" | "Fullstack";
+  category: "React" | "UI/UX" | "Fullstack" | "Frontend";
   githubUrl: string;
   liveUrl: string;
   fullDescription?: string;
@@ -61,60 +61,60 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "EcoDrive - EV System",
+    title: "Clean & Go - Car Wash Booking System",
     description:
-      "A comprehensive dashboard for managing electric vehicle fleets with real-time tracking.",
+      "A comprehensive dashboard for managing car wash bookings with real-time tracking.",
     fullDescription:
-      "EcoDrive is a high-performance EV fleet management solution. It uses real-time WebSockets to track vehicle locations, monitor battery health, and automate charging schedules. The dashboard provides detailed analytics on fleet efficiency and CO2 reduction.",
+      "Clean & Go is a high-performance car wash booking platform built using modern web technologies. It enables users to schedule car wash services seamlessly, select preferred dates within a dynamic time window, and track booking status. The system focuses on user-friendly design, responsive UI, and efficient service management, providing a smooth and optimized booking experience.",
     image:
-      "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?q=80&w=1472&auto=format&fit=crop",
-    tags: ["React", "TypeScript", "Tailwind", "Leaflet"],
-    category: "React",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+      "/car.png.png",
+    tags: ["React", "TypeScript", "Tailwind"],
+    category: "Frontend",
+    githubUrl: "https://github.com/Biwash-2002/clean-and-go-booking-system",
+    liveUrl: "https://clean-and-go-booking-system.vercel.app/",
   },
   {
     id: 2,
-    title: "Nexus Workspace",
+    title: "Quiz App with API integration",
     description:
-      "Collaborative project management tool with real-time chat and task boards.",
+      "A dynamic Quiz Application built using React + TypeScript + Vite, where quiz questions are fetched from an external API instead of being hardcoded.",
     fullDescription:
-      "Nexus is a unified workspace for remote teams. It features a Trello-like Kanban board, real-time presence indicators, and built-in video conferencing. Built with Next.js and Supabase for a seamless real-time experience.",
+      "This is a dynamic Quiz Application built using React + TypeScript + Vite, where quiz questions are fetched from an external API instead of being hardcoded. The app allows users to attempt quizzes, view scores, and get instant feedback",
     image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop",
-    tags: ["Next.js", "Supabase", "Framer Motion"],
-    category: "Fullstack",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-  },
-  {
-    id: 3,
-    title: "ZenArt Gallery",
-    description:
-      "A visually stunning digital art marketplace with smooth 3D transitions.",
-    fullDescription:
-      "ZenArt is a premium NFT marketplace concept focused on visual excellence. It leverages Three.js for immersive 3D previews of digital collectibles and Framer Motion for cinematic page transitions. The UI follows a strict minimal aesthetic.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1426&auto=format&fit=crop",
-    tags: ["React", "Three.js", "Tailwind CSS"],
-    category: "UI/UX",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-  },
-  {
-    id: 4,
-    title: "Insight Analytics",
-    description:
-      "SaaS platform for deep data visualization and business intelligence reporting.",
-    fullDescription:
-      "Insight is a powerful analytics engine that transforms raw business data into actionable insights through interactive heatmaps and complex charting systems. It supports high-velocity data streams and custom reporting templates.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bb8c8034b016?q=80&w=1470&auto=format&fit=crop",
-    tags: ["React", "D3.js", "Recoil"],
+      "/quiz.png",
+    tags: ["React", "TypeScript", "Vite"],
     category: "React",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/Biwash-2002/Quiz-game-with-API",
+    liveUrl: "https://quiz-game-with-api-integration.vercel.app/",
   },
+  // {
+  //   id: 3,
+  //   title: "ZenArt Gallery",
+  //   description:
+  //     "A visually stunning digital art marketplace with smooth 3D transitions.",
+  //   fullDescription:
+  //     "ZenArt is a premium NFT marketplace concept focused on visual excellence. It leverages Three.js for immersive 3D previews of digital collectibles and Framer Motion for cinematic page transitions. The UI follows a strict minimal aesthetic.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1426&auto=format&fit=crop",
+  //   tags: ["React", "Three.js", "Tailwind CSS"],
+  //   category: "UI/UX",
+  //   githubUrl: "https://github.com",
+  //   liveUrl: "https://example.com",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Insight Analytics",
+  //   description:
+  //     "SaaS platform for deep data visualization and business intelligence reporting.",
+  //   fullDescription:
+  //     "Insight is a powerful analytics engine that transforms raw business data into actionable insights through interactive heatmaps and complex charting systems. It supports high-velocity data streams and custom reporting templates.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1551288049-bb8c8034b016?q=80&w=1470&auto=format&fit=crop",
+  //   tags: ["React", "D3.js", "Recoil"],
+  //   category: "React",
+  //   githubUrl: "https://github.com",
+  //   liveUrl: "https://example.com",
+  // },
 ];
 
 export const experiences = [
