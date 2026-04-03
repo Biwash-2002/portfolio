@@ -114,7 +114,7 @@ export function HeroSection() {
                     <span className="text-2xl font-black text-primary">3+</span>
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold">Months Professional</h4>
+                    <h4 className="text-sm font-bold">Months Experience</h4>
                     <p className="text-[10px] text-muted-foreground uppercase tracking-widest font-black">
                       Building the future
                     </p>

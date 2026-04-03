@@ -71,7 +71,7 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "Tailwind"],
     category: "Frontend",
     githubUrl: "https://github.com/Biwash-2002/clean-and-go-booking-system",
-    liveUrl: "https://clean-and-go-booking-system.vercel.app/",
+    liveUrl: "/car demo.mp4",
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     tags: ["React", "TypeScript", "Vite"],
     category: "React",
     githubUrl: "https://github.com/Biwash-2002/Quiz-game-with-API",
-    liveUrl: "https://quiz-game-with-api-integration.vercel.app/",
+    liveUrl: "/quiz game.mp4",
   },
   // {
   //   id: 3,
